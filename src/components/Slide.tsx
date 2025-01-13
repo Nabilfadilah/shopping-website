@@ -12,7 +12,7 @@ const Slide: React.FC<propsType> = ({img, title, mainTitle, price}) => {
   return (
     <div className="outline-none border-none relative">
       <div className="absolute left-[30px] md:left-[70px] max-w-[250px] sm:max-w-[350px] top-[50%] -translate-y-[50%] space-y-2 lg:space-y-4 bg-[#ffffffa2] sm:bg-transparent p-4 sm:p-0 rounded-lg sm:rounded-none">
-        <h3 className="text-blue-800 font-semibold text-[24px] lg:text-[28px]">
+        <h3 className="text-sky-900 font-semibold text-[24px] lg:text-[28px]">
           {title}
         </h3>
         <h2 className="text-white text-[26px] md:text-[30px] lg:text-[44px] font-bold leading-[1.2]">
@@ -20,12 +20,12 @@ const Slide: React.FC<propsType> = ({img, title, mainTitle, price}) => {
         </h2>
 
         <h3 className="text-[24px] text-white">
-          starting at{" "}
+          Mulai dari{" "}
           <b className="text-[20px] md:text-[24px] lg:text-[30px]">{price}</b>
         </h3>
 
-        <div className="bg-blue-800 text-white text-[14px] md:text-[16px] p-2 px-4 rounded-lg inline-block cursor-pointer hover:bg-black">
-          Shop Now
+        <div className="bg-sky-900 text-white text-[14px] md:text-[16px] p-2 px-4 rounded-lg inline-block cursor-pointer hover:bg-black">
+          Belanja Sekarang
         </div>
       </div>
 
