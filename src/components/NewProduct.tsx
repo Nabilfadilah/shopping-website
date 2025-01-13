@@ -5,9 +5,9 @@ const NewProduct = () => {
   return (
     <>
       <div className="container pt-10">
-        <h2 className="font-medium text-2xl pb-4">New Product</h2>
+        <h2 className="font-medium text-2xl pb-4">Produk Baru</h2>
 
-        <div className="grid grid-cols-1 place-items-center sm:place-items-start sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 xl:gap-x-20 xl:gap-y-10 pb-8">
+        <div className="grid grid-cols-1 place-items-center sm:place-items-center sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-5 xl:gap-x-10 xl:gap-y-10 pb-8">
           {productData.map((item, index) => (
             <ProductCart
               key={index}
