@@ -5,10 +5,10 @@ const Testimonial = () => {
   return (
     <>
       <div className="container pt-16 pb-16">
-        <h2 className="font-medium text-2xl pb-4">Testimonials</h2>
+        <h2 className="font-medium text-2xl pb-4">Testimoni</h2>
         <div className="grid lg:grid-cols-[300px,1fr] gap-6 items-stretch">
           {/* Quote Section */}
-          <div className="border border-gray-300 rounded-2xl grid place-items-center p-6 lg:p-8">
+          <div className="border border-gray-300 rounded-2xl shadow-lg shadow-sky-900 grid place-items-center p-6 lg:p-8">
             <div className="text-center flex flex-col items-center gap-3">
               <Image
                 className="rounded-full"
@@ -37,7 +37,7 @@ const Testimonial = () => {
 
           {/* Discount Section */}
           <div
-            className="relative bg-cover bg-center bg-gray-800 rounded-2xl overflow-hidden flex items-center justify-center"
+            className="relative bg-cover bg-center bg-sky-950 shadow shadow-sky-400 rounded-2xl overflow-hidden flex items-center justify-center"
             style={{
               backgroundImage: "url('/your-background-image.jpg')",
               minHeight: "100%",
@@ -45,13 +45,13 @@ const Testimonial = () => {
           >
             <div className="bg-[#ffffffab] w-full max-w-[90%] rounded-xl p-6 flex flex-col items-center gap-4">
               <button className="bg-black text-white px-4 py-2 rounded-md text-sm">
-                25% DISCOUNT
+                DISKON 25%
               </button>
               <h2 className="font-extrabold text-2xl text-[#272727] text-center">
-                Summer Collection
+                Koleksi Idul Fitri
               </h2>
               <p className="text-gray-500 text-lg text-center">
-                Starting @ Rp. 50.000 <b>Shop Now</b>
+                Mulai Rp 50.000 <b>Belanja Sekarang</b>
               </p>
             </div>
           </div>
