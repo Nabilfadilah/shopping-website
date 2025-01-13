@@ -16,17 +16,17 @@ var settings = {
 const slideData = [
   {
     id: 0,
-    img: "/banner1.jpg",
+    img: "/banner2.jpg",
     title: "Fashion and Action",
     mainTitle: "MEN'S Latest sale",
-    price: "Rp. 320.000",
+    price: "Rp 320.000",
   },
   {
     id: 1,
-    img: "/banner2.jpg",
+    img: "/banner1.jpg",
     title: "Trending",
     mainTitle: "WOMEN'S Latest sale",
-    price: "Rp. 320.000",
+    price: "Rp 320.000",
   },
 ];
 
