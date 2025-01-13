@@ -10,16 +10,16 @@ const Navbar = () => {
             Home
           </Link>
           <Link className="navbar_link relative" rel="stylesheet" href="#">
-            Categories
+            Kategori
           </Link>
           <Link className="navbar_link relative" rel="stylesheet" href="#">
-            Men's
+            Pria
           </Link>
           <Link className="navbar_link relative" rel="stylesheet" href="#">
-            Women's
+            Wanita
           </Link>
           <Link className="navbar_link relative" rel="stylesheet" href="#">
-            Watch
+            Jam Tangan
           </Link>
         </div>
       </div>
